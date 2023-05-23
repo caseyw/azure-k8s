@@ -72,4 +72,6 @@ cleanThisBecauseIKnowWhatImDoing: ## Destructive: Removes Entire Resource Group
 getPublicIp: ## Get the LoadBalancer Address
 	@echo "http://$(shell kubectl get services frontend --output jsonpath='{.status.loadBalancer.ingress[0].ip}')"
 
+.PHONY: help envfile shipItAll infra createResourceGroup azureBicep buildAndPush build tagImage pushImage acrLogin deploy mountKubectl dev test fmt watch healthLoad healthTest cleanThisBecauseIKnowWhatImDoing getPublicIp
+
 include $(PWD)/.env
