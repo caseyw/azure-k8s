@@ -8,7 +8,6 @@ a Go application in the cloud. This is not enterprise ready.
 - Azure CLI (https://learn.microsoft.com/en-us/cli/azure/)
 - Docker (https://docker.com/)
 - GNU Make (https://www.gnu.org/software/make/)
-- Go 1.20 (https://go.dev/)
 - kubectl (https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli#connect-to-the-cluster)
 
 ## TL;DR
